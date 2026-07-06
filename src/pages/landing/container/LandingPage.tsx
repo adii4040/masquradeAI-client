@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import useCurrentUser from '../../../modules/auth/query/useCurrentUser';
-import { Bot, User, ArrowRight, Sparkles } from 'lucide-react';
+import { Bot, User, ArrowRight } from 'lucide-react';
 
 function LandingPage() {
   const { data: userData } = useCurrentUser();
